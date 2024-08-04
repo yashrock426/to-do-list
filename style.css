@@ -1,0 +1,51 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url(dooo.jpg);
+  background-size: auto;
+  
+  background-size: cover;
+}
+* {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  text-align: center;
+  background-color: #2be43eab;
+  margin-top: 0px;
+  font-size: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px 17px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+.container button{
+    margin: 5px 17px;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+
+}
+.del{
+    background-color: rgba(253, 2, 2, 0.555);
+    color: rgb(14, 13, 13);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.del:hover{
+    background-color: red;
+}
+ul li{
+    color: white;
+    font-size: 2rem;
+
+}
